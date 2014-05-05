@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.0'
+gem 'rails'
 gem 'bootstrap-sass'
 
 group :development, :test do
@@ -19,18 +19,18 @@ group :test do
   gem 'capybara'
 end
 
-gem 'sass-rails', '~> 4.0.3'
-gem 'uglifier', '2.1.1'
-gem 'coffee-rails', '~> 4.0.0'
+gem 'sass-rails'
+gem 'uglifier'
+gem 'coffee-rails'
 gem 'jquery-rails'
-gem 'turbolinks', '1.1.1'
-gem 'jbuilder', '1.0.2'
+gem 'turbolinks'
+gem 'jbuilder'
 
 group :doc do
-  gem 'sdoc', '0.3.20', require: false
+  gem 'sdoc', require: false
 end
 
 group :production do
 	gem 'pg'
-	gem 'rails_12factor', '0.0.2'
+	gem 'rails_12factor'
 end
